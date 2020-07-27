@@ -1,0 +1,3 @@
+Le sticky fonctionne seulement si son element parent a un scroll
+
+le z-index represente l'ordre des element.
