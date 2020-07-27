@@ -1,0 +1,58 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.cards {
+    display: flex;
+    justify-content: start;
+}
+
+#card1,#card2,#card3,#card4 {
+
+    height: 200px;
+    width: 150px;
+    background-color: green;
+    border: white solid 0.1px;
+}
+
+#card2, #card4 {
+    position: relative;
+    top: 20px;
+}
+
+#card1 {
+    z-index: 4;
+}
+
+#card2 {
+    z-index: 3;
+    position: relative;
+    right: 20px;
+
+} 
+#card3 {
+    z-index: 2;
+    position: relative;
+    right: 40px;
+}
+#card4 {
+    z-index: 1;
+    position: relative;
+    right: 60px;
+}
